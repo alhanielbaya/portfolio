@@ -1,0 +1,6 @@
+.root {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 3rem 18px 0 18px;
+  box-sizing: border-box;
+}

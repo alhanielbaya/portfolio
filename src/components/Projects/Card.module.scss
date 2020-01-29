@@ -1,0 +1,52 @@
+.root {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px lightgrey;
+  padding: 30px 30px 40px 30px;
+  margin-bottom: 4rem;
+  img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  h1 {
+    cursor: pointer;
+    color: #23527c;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin-top: 0.25rem;
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  svg {
+    width: 48px;
+    height: 48px;
+    margin: 0 0.25rem;
+  }
+  margin: 1rem 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  a,
+  button {
+    margin: 0 1rem;
+    padding: 0.35rem 200rem;
+  }
+}
