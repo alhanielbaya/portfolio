@@ -6,7 +6,7 @@ export default [
       alt: 'Tweeter App'
     },
     shortDesc:
-      'A twitter clone. Functionalites include logging in using OAuth, posting tweets, and following users.',
+      'A twitter clone with basic functionalities like logging in, posting a tweet and following users. Uses Oauth technology, specifically Facebook and Google, for authentication and authorization',
     technologies: [
       'react',
       'typescript',
