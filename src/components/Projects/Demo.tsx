@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './Demo.module.scss';
 
 const Demo: React.FC<{
@@ -9,14 +9,25 @@ const Demo: React.FC<{
   demoGif: string;
 }> = props => {
   const { isOpen, setOpen, demoLink, demoGif, name } = props;
+  const video = useRef<HTMLVideoElement>(null);
 
   function closeModal() {
     setOpen(false);
   }
 
+  React.useEffect(() => {
+    if (video.current) {
+      if (isOpen) {
+        video.current.play();
+      } else {
+        video.current.pause();
+      }
+    }
+  });
+
   return (
     <>
-      <div className={`modal ${isOpen ? 'active' : ''}`} id='modal-id'>
+      <div className={`modal ${isOpen ? 'active' : ''}`}>
         <div className='modal-overlay' aria-label='Close'></div>
         <div className='modal-container'>
           <div className='modal-header'>
@@ -30,7 +41,9 @@ const Demo: React.FC<{
           </div>
           <div className='modal-body'>
             <div className='content'>
-              <img src={demoGif} alt='Demo Tweeter' className={styles.gif} />
+              <video ref={video} className={styles.gif} controls>
+                <source src={demoGif} type='video/mp4' />
+              </video>
             </div>
           </div>
           <div className={`modal-footer ${styles.demofooter}`}>

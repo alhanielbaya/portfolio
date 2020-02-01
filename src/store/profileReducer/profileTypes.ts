@@ -4,6 +4,7 @@ export interface IProfileState {
   email: string;
   location: string;
   shortDesc: string;
+  resumeLink: string;
   socialMedia: Array<{
     name: string;
     link: string;

@@ -39,17 +39,19 @@ const Card: React.FC<{ project: IProject }> = props => {
 
       <div className={`container`}>
         <div className='columns'>
-          <div className={`${styles.buttons} col-sm-12 col-6 col-mx-auto`}>
+          <div
+            className={`${styles.buttons} col-6 col-xl-10 col-md-12 col-mx-auto`}
+          >
             <a
               href={githubLink}
-              className={`btn btn-primary btn-success btn-lg`}
+              className={`btn btn-primary btn-lg col-mx-auto`}
               target='_blank'
               rel='noopener noreferrer'
             >
               Source Code
             </a>
             <button
-              className={`btn btn-primary btn-success btn-lg`}
+              className={`btn btn-primary btn-lg col-mx-auto`}
               onClick={openModal}
             >
               Demo

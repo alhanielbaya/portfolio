@@ -8,6 +8,9 @@ export const useProfile = (): IProfileState => {
   const email = useSelector((state: IRootState) => state.profile.email);
   const location = useSelector((state: IRootState) => state.profile.location);
   const shortDesc = useSelector((state: IRootState) => state.profile.shortDesc);
+  const resumeLink = useSelector(
+    (state: IRootState) => state.profile.resumeLink
+  );
   const socialMedia = useSelector(
     (state: IRootState) => state.profile.socialMedia
   );
@@ -18,6 +21,7 @@ export const useProfile = (): IProfileState => {
     email,
     location,
     shortDesc,
+    resumeLink,
     socialMedia
   };
 };
