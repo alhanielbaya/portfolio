@@ -21,7 +21,7 @@ export default [
     ],
     githubLink: 'https://github.com/alhanielbaya/tweeter',
     demoLink: 'https://tweeterdemo.xyz',
-    demoGif: '/videos/tweeter.mp4'
+    demoGif: 'videos/tweeter.mp4'
   },
 
   {
@@ -35,7 +35,7 @@ export default [
     technologies: ['nodejs', 'express', 'mysql', 'heroku'],
     githubLink: 'https://github.com/alhanielbaya/express-user-auth',
     demoLink: 'https://alhanielbaya-login-auth.herokuapp.com/',
-    demoGif: '/videos/user-auth.mp4'
+    demoGif: 'videos/user-auth.mp4'
   },
 
   {
@@ -49,7 +49,7 @@ export default [
     technologies: ['react', 'html', 'sass'],
     githubLink: 'https://github.com/alhanielbaya/hourly-weather',
     demoLink: 'https://alhanielbaya.github.io/hourly-weather/',
-    demoGif: '/videos/hourly-weather.mp4'
+    demoGif: 'videos/hourly-weather.mp4'
   },
 
   {
@@ -63,6 +63,6 @@ export default [
     technologies: ['react', 'typescript', 'html', 'sass'],
     githubLink: 'https://github.com/alhanielbaya/explore-beers',
     demoLink: 'https://alhanielbaya.github.io/explore-beers/',
-    demoGif: '/videos/explore-beers.mp4'
+    demoGif: 'videos/explore-beers.mp4'
   }
 ];

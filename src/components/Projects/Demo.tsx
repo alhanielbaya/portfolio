@@ -42,7 +42,10 @@ const Demo: React.FC<{
           <div className='modal-body'>
             <div className='content'>
               <video ref={video} className={styles.gif} controls>
-                <source src={demoGif} type='video/mp4' />
+                <source
+                  src={`${process.env.PUBLIC_URL}/${demoGif}`}
+                  type='video/mp4'
+                />
               </video>
             </div>
           </div>
