@@ -10,8 +10,8 @@ const Profile: React.FC = () => {
     email,
     location,
     shortDesc,
-    socialMedia,
-    resumeLink
+    socialMedia
+    // resumeLink
   } = useProfile();
 
   return (
@@ -30,9 +30,9 @@ const Profile: React.FC = () => {
         <a href={`mailto:${email}`} target='_blank' rel='noopener noreferrer'>
           {email}
         </a>
-        <a href={resumeLink} target='_blank' rel='noopener noreferrer'>
+        {/* <a href={resumeLink} target='_blank' rel='noopener noreferrer'>
           Resume
-        </a>
+        </a> */}
       </div>
 
       <div className={`${styles.icons} `}>

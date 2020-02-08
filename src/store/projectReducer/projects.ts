@@ -60,7 +60,7 @@ export default [
     },
     shortDesc:
       'An app about beers, while creating it, taught me about how to connect to third party APIs and HTTP requests',
-    technologies: ['react', 'html', 'sass'],
+    technologies: ['react', 'typescript', 'html', 'sass'],
     githubLink: 'https://github.com/alhanielbaya/explore-beers',
     demoLink: 'https://alhanielbaya.github.io/explore-beers/',
     demoGif: 'https://pictshare.net/25gapv.mp4/raw'

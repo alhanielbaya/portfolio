@@ -6,7 +6,7 @@ const initialState: IProfileState = {
   email: 'alstrom201@gmail.com',
   location: 'San Fernando Valley, CA',
   shortDesc: 'Full Stack Web Developer',
-  resumeLink: 'https://www.pdf-archive.com/2020/02/01/resume-1/resume.pdf',
+  resumeLink: 'https://www.pdf-archive.com/2020/02/07/resume/resume.pdf',
   socialMedia: [
     {
       name: 'github',
