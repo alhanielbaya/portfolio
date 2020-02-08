@@ -21,7 +21,7 @@ export default [
     ],
     githubLink: 'https://github.com/alhanielbaya/tweeter',
     demoLink: 'https://tweeterdemo.xyz',
-    demoGif: 'https://pictshare.net/8ma2uc.mp4/raw'
+    demoGif: '/videos/tweeter.mp4'
   },
 
   {
@@ -35,7 +35,7 @@ export default [
     technologies: ['nodejs', 'express', 'mysql', 'heroku'],
     githubLink: 'https://github.com/alhanielbaya/express-user-auth',
     demoLink: 'https://alhanielbaya-login-auth.herokuapp.com/',
-    demoGif: 'https://pictshare.net/341bby.mp4/raw'
+    demoGif: '/videos/user-auth.mp4'
   },
 
   {
@@ -45,11 +45,11 @@ export default [
       alt: 'Hourly Weather App'
     },
     shortDesc:
-      'A Weather App showing hourly forecasts. Also a Progressive Web App',
+      'A Weather App showing hourly forecasts. Also a Progressive Web App.',
     technologies: ['react', 'html', 'sass'],
     githubLink: 'https://github.com/alhanielbaya/hourly-weather',
     demoLink: 'https://alhanielbaya.github.io/hourly-weather/',
-    demoGif: 'https://pictshare.net/9lfp37.mp4/raw'
+    demoGif: '/videos/hourly-weather.mp4'
   },
 
   {
@@ -59,10 +59,10 @@ export default [
       alt: 'Explore Beers App'
     },
     shortDesc:
-      'An app about beers, while creating it, taught me about how to connect to third party APIs and HTTP requests',
+      'An app about beers, while creating it, taught me about how to connect to third party APIs and HTTP requests.',
     technologies: ['react', 'typescript', 'html', 'sass'],
     githubLink: 'https://github.com/alhanielbaya/explore-beers',
     demoLink: 'https://alhanielbaya.github.io/explore-beers/',
-    demoGif: 'https://pictshare.net/25gapv.mp4/raw'
+    demoGif: '/videos/explore-beers.mp4'
   }
 ];
